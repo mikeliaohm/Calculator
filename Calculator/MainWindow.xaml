@@ -30,19 +30,23 @@
         
         <Button x:Name="acButton"
                 Click="AcButton_Click"
+                Style="{StaticResource additionalButtonStyle}"
                 Content="AC"
                 Grid.Row="1" />
         <Button x:Name="negativeButton" 
                 Click="NegativeButton_Click"
+                Style="{StaticResource additionalButtonStyle}"
                 Content="+/-"
                 Grid.Row="1"
                 Grid.Column="1" />
         <Button x:Name="percentButton" 
                 Click="PercentButton_Click"
+                Style="{StaticResource additionalButtonStyle}"
                 Content="%"
                 Grid.Row="1"
                 Grid.Column="2" />
         <Button x:Name="divideButton"
+                Style="{StaticResource operatorButtonStyle}"
                 Click="OperationButton_Click"
                 Content="/"
                 Grid.Row="1"
@@ -67,6 +71,7 @@
                 Grid.Column="2" />
         <Button x:Name="multiplyButton"
                 Click="OperationButton_Click"
+                Style="{StaticResource operatorButtonStyle}"
                 Content="*"
                 Grid.Row="2"
                 Grid.Column="3" />
@@ -90,6 +95,7 @@
                 Grid.Column="2" />
         <Button x:Name="minusButton"
                 Click="OperationButton_Click"
+                Style="{StaticResource operatorButtonStyle}"
                 Content="-"
                 Grid.Row="3"
                 Grid.Column="3" />
@@ -113,6 +119,7 @@
                 Grid.Column="2" />
         <Button x:Name="plusButton"
                 Click="OperationButton_Click"
+                Style="{StaticResource operatorButtonStyle}"
                 Content="+"
                 Grid.Row="4"
                 Grid.Column="3" /> 
@@ -131,6 +138,7 @@
                 Grid.Column="2" />
         <Button x:Name="equalButton"
                 Click="EqualButton_Click"
+                Style="{StaticResource operatorButtonStyle}"
                 Content="="
                 Grid.Row="5"
                 Grid.Column="3" />
